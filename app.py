@@ -61,6 +61,7 @@ api.add_resource(Login, '/login')
 api.add_resource(Logout, '/logout')
 
 print("This is the first change!")
+print("This is the second change!")
 
 if __name__ == '__main__':
     app.run(debug=True, port=5001)
